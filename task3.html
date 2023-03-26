@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: double;
+
+}
+
+li {
+  float: left;
+  background-color: #169202;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+li a:hover:not(.active) {
+  background-color: #79ed1a;
+}
+
+.active {
+  
+  color: #d5e015;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">About</a></li>
+  <li ><a class="active" href="#">Products</a>
+    <di  style="font-size: large;">
+      <a href="#">Engineering</a>
+      <a href="#">Telecom</a>
+      <a href="#">Energy</a>
+      <a href="#">Finance</a>
+      <a href="#">Consultancy</a>
+    </di>
+  </li>
+
+  <li><a href="#srevices">services</a></li>
+  <li><a href="Contact">contact</a></li>
+</ul>
+
+</body>
+</html>
